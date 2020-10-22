@@ -15,7 +15,6 @@ class Recursion {
     }
 }
 class Hanoi {
-
     public long toh(int N, int from, int to, int aux) {
         if(N==1){
             System.out.println("move disk 1 from rod "+from+" to rod "+to);
